@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="608.0" prefWidth="580.0" style="-fx-background-color: #2C7A2A;">
+         <children>
+            <ImageView fx:id="logo" fitHeight="266.0" fitWidth="356.0" layoutX="143.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Users/HP/Downloads/Screenshot_2024-06-22_120111-removebg-preview1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="169.0" layoutY="529.0" text=" M  A  N  G  R  O" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="46.0" />
+               </font>
+            </Label>
+            <Label layoutX="488.0" layoutY="432.0" rotate="270.0" text="E  R  S" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="45.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane fx:id="halamanLogin" focusTraversable="true" layoutX="618.0" prefHeight="600.0" prefWidth="382.0">
+         <children>
+            <TextField fx:id="usernameField" layoutX="67.0" layoutY="277.0" onAction="#handleLoginButtonAction" prefHeight="35.0" prefWidth="287.0" promptText="Username">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="loginButton" layoutX="143.0" layoutY="389.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="41.0" prefWidth="135.0" style="-fx-background-color: #2C7A2A;" text="Login" textFill="WHITE" />
+            <Label layoutX="30.0" layoutY="55.0" text="Selamat Datang">
+               <font>
+                  <Font name="System Bold Italic" size="42.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordField" layoutX="67.0" layoutY="331.0" onAction="#handleLoginButtonAction" prefHeight="35.0" prefWidth="287.0" promptText="Password" />
+            <Label fx:id="errorLabel" layoutX="143.0" layoutY="486.0" onDragDetected="#handleLoginButtonAction" prefHeight="17.0" prefWidth="225.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

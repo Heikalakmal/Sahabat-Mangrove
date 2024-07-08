@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+
+    <user>
+        <username>haikal</username>
+        <password>haikal</password>
+        <tanggalLahir>2024-07-03</tanggalLahir>
+        <nama>haikal</nama>
+        <email>haikal</email>
+    </user>
+    <user>
+        <username>haikal</username>
+        <password>haikal</password>
+        <tanggalLahir>2024-07-03</tanggalLahir>
+        <nama>haikal</nama>
+        <email>haikal</email>
+    </user>
+    <user>
+        <username>kinan</username>
+        <password>123</password>
+        <tanggalLahir>2024-07-02</tanggalLahir>
+        <nama>kinan</nama>
+        <email>k@gmail.com</email>
+    </user>
+    <user>
+        <username>kinan</username>
+        <password>123</password>
+        <tanggalLahir>2024-07-02</tanggalLahir>
+        <nama>kinan</nama>
+        <email>k@gmail.com</email>
+    </user>
+</users>

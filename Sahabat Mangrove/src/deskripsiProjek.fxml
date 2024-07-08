@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="halamanLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+    <AnchorPane prefHeight="64.0" prefWidth="1280.0" style="-fx-background-color: #d3d3d3;">
+        <children>
+            <Button alignment="CENTER" layoutX="46.0" layoutY="2.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="64.0" style="-fx-background-color: transparant;" textAlignment="CENTER">
+            <graphic>
+                <ImageView fitHeight="53.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@Image/Logo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <TextField layoutX="232.0" layoutY="16.0" prefHeight="28.0" prefWidth="353.0" promptText="Search" style="-fx-border-radius: 10; -fx-border-color: green; -fx-background-color: transparant; -fx-border-image-width: 4;" />
+            <Button fx:id="projek" layoutX="1072.0" layoutY="19.0" mnemonicParsing="false" onAction="#handleProjekButtonAction" style="-fx-background-color: transparant;" text="Projek">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1155.0" layoutY="19.0" mnemonicParsing="false" style="-fx-background-color: transparant;" text="Tentang Kami">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="blog" layoutX="985.0" layoutY="19.0" mnemonicParsing="false" onAction="#handleBlogButtonAction" style="-fx-background-color: transparant;" text="Blog">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="alurProjek" layoutX="860.0" layoutY="19.0" mnemonicParsing="false" onAction="#handleAlurProjekButtonAction" style="-fx-background-color: transparant;" text="Alur Projek">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="343.0" fitWidth="607.0" layoutX="36.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/9f6750f8c1756cde68a3f1848b82fa39.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="36.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pohon Mangrove Sleman">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="906.0" layoutY="124.0" prefHeight="385.0" prefWidth="340.0" style="-fx-border-radius: 10; -fx-background-color: transparent; -fx-border-image-width: 4; -fx-border-color: #d3d3d3;">
+         <children>
+            <Text layoutX="19.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dana Terkumpul">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="20.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 1.500.000,-">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="20.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="terkumpul dari Rp. 10.000.000,-">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <ProgressBar layoutX="20.0" layoutY="102.0" prefHeight="18.0" prefWidth="299.0" progress="0.1513" />
+            <Button layoutX="90.0" layoutY="231.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="159.0" style="-fx-background-color: green;" text="Donasi" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="910.0" layoutY="528.0" prefHeight="173.0" prefWidth="340.0" style="-fx-background-color: tranparent; -fx-border-radius: 10; -fx-border-image-width: 4; -fx-border-color: #d3d3d3;">
+         <children>
+            <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diskusi">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="44.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seseorang">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="44.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wah kondisinya udah ga memungkinkan" />
+            <Icon content="ACCOUNT_CIRCLE" layoutX="14.0" layoutY="68.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
